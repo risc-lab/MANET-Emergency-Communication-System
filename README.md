@@ -1,9 +1,11 @@
 # MANET System Simulation
 # Table of contents
-1. [Introduction](#introduction)
-2. [Installation](#installation)
-3. [Visuals](#visuals)
-4. [Pseudocode](#pseudocode)
+- [1. Introduction](#introduction)
+- [2. Installation](#installation)
+	- [2.1. Install Requirements](#command)	
+	- [2.2. External Libraries](#lib)
+- [3. Visuals](#visuals)
+- [4. Pseudocode](#pseudocode)
 
 
 ## Introduction <a name="introduction"></a>
@@ -11,8 +13,12 @@ This repository contains codes for simulating an `Infrastructure-less Emergency 
 
 ## Installation <a name="installation"></a>
 This project is developed using `Pyhton`. The requirements to run this project is included in the `requirements.txt` file in the repository.
-### `pip install -r requirements.txt`
+### `pip install -r requirements.txt` <a name="command"></a>
 Run this command in your shell to install the required libraries.
+
+### External Libraries <a name="lib"></a>
+- [Matplotlib]
+- [Networkx]
 
 ## Visuals <a name="visuals"></a>
 
@@ -89,3 +95,5 @@ UPDATE-DLT(Graph G) {
 }
 ```
 
+[Matplotlib]: <https://matplotlib.org/>
+[Networkx]: <https://networkx.org/>
