@@ -11,7 +11,7 @@ This repository contains codes for simulating an `Infrastructure-less Emergency 
 ## Installation <a name="installation"></a>
 This project is developed using `Pyhton`. The requirements to run this project is included in the `requirements.txt` file in the repository.
 ### `pip install -r requirements.txt`
-Run this command in your CMD to install the required libraries.
+Run this command in your shell to install the required libraries.
 
 ## Visuals <a name="visuals"></a>
 
