@@ -1,4 +1,4 @@
-# MANET System Simulation
+# MANET Emergency Communication System Simulation
 # Table of contents
 - [1. Introduction](#introduction)
 - [2. Installation](#installation)
@@ -6,6 +6,7 @@
 	- [2.2. External Libraries](#lib)
 - [3. Visuals](#visuals)
 - [4. Pseudocode](#pseudocode)
+- [5. Credits](#credits)
 
 
 ## Introduction <a name="introduction"></a>
@@ -40,10 +41,10 @@ Person {
 Initialize(Graph G) {
 
 	// Start
-	For each person P ∈ G.People {
-		Create-UniqeID(P)
-	    Create-DLT(P)
-	    Start-WiFiScan(G, P)
+	For each Device D ∈ G.People {
+	    Create-UniqeID(D)
+	    Create-DLT(D)
+	    Start-WiFiScan(G, D)
 	}
 
 }
@@ -77,8 +78,8 @@ UPDATE-DLT(Graph G) {
 	MAX-DISTANCE = 100 ft
 	DLT = ∅
 
-	For each person P ∈ G.People {
-	    MAKE-DISJOINT-CLUSTER-SET(P)
+	For each Device D ∈ G.People {
+	    MAKE-DISJOINT-CLUSTER-SET(D)
 	}
 
 	For each path (u, v) ∈ G.Paths ordered by increasing order by DISTANCE(u, v) {
@@ -94,6 +95,13 @@ UPDATE-DLT(Graph G) {
 
 }
 ```
+
+## Credits <a name="credits"></a>
+### Developer
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+| [<img src="https://avatars.githubusercontent.com/u/51258896?v=3" width="80px;"/><br /><sub>Ramtin Ehsani</sub>](https://github.com/ramtin-ehsani)<br />[📖](https://github.com/risc-lab/MANET-Emergency-Communication-System/commits?author=ramtin-ehsani) [💻](https://github.com/risc-lab/MANET-Emergency-Communication-System/commits?author=ramtin-ehsani) |
+| :---: |
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 [Matplotlib]: <https://matplotlib.org/>
 [Networkx]: <https://networkx.org/>
