@@ -6,6 +6,7 @@
 	- [2.2. External Libraries](#lib)
 - [3. Visuals](#visuals)
 - [4. Pseudocode](#pseudocode)
+- [5. Credits](#credits)
 
 
 ## Introduction <a name="introduction"></a>
@@ -94,6 +95,13 @@ UPDATE-DLT(Graph G) {
 
 }
 ```
+
+## Credits <a name="credits"></a>
+### Developer
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+| [<img src="https://avatars.githubusercontent.com/u/51258896?v=3" width="80px;"/><br /><sub>Ramtin Ehsani</sub>](https://github.com/ramtin-ehsani)<br />[📖](https://github.com/risc-lab/MANET-Emergency-Communication-System/commits?author=ramtin-ehsani) [💻](https://github.com/risc-lab/MANET-Emergency-Communication-System/commits?author=ramtin-ehsani) |
+| :---: |
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 [Matplotlib]: <https://matplotlib.org/>
 [Networkx]: <https://networkx.org/>
