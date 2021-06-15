@@ -1,4 +1,4 @@
-# MANET System Simulation
+# MANET Emergency Communication System Simulation
 # Table of contents
 - [1. Introduction](#introduction)
 - [2. Installation](#installation)
