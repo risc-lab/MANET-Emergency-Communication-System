@@ -1,4 +1,6 @@
 # MANET Emergency Communication System Simulation
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5077930.svg)](https://doi.org/10.5281/zenodo.5077930)
+
 # Table of contents
 - [1. Introduction](#introduction)
 - [2. Installation](#installation)
